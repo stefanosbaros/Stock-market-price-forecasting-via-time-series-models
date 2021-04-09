@@ -85,6 +85,6 @@ ARIMA (2,2,2) (2-day) | 50.6% | 53.135
 
 Evidently, the ARIMA(2,2,2) model gives the best performance on forecasting day-ahead stock prices while ARIMA (2,1,2) gives the best performance for predicting two-days-ahead stock prices. The sign accuracy for day-ahead stock prices forecasting is satisfactory while for two-days-ahead is not. Figures below show the comparison of actual and predicted prices for both day-ahead and 2 days-ahead forecasting algorithms.
 
-<img src="Figures/predictions_arima212" width="750">
+<img src="Figures/predictions_arima212.png" width="750">
 
 <img src="Figures/predictions_arima212_2days.JPG" width="750">
