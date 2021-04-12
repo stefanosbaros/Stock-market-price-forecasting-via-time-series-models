@@ -1,6 +1,6 @@
 # Stock market price forecasting
 
-**Authors**: Stefanos Baros and Ana Jevtic (both authors contributed equally)
+**Authors**: Stefanos Baros and Ana Jevtic (both authors contributed equally).
 
 ## Dataset
 
@@ -77,10 +77,10 @@ We use a Holts-Winters Simple Exponential Smoothing model as a benchmark in both
 Model | Sign accuracy | RMSE
 ----- | --------------| ------
 HW (1-day) | 55.3% | 40.285
-ARIMA(2,1,2) (1-day) | 54.9% | **40.223**
-ARIMA (2,2,2) (1-day) | **56.5%** | 40.701
+ARIMA(2,1,2) (1-day) | 54.9% | 40.223
+ARIMA (2,2,2) (1-day) | **56.5%** | **40.701**
 HW (2-day) | 51% | 53.633
-ARIMA(2,1,2) (2-day) | **51.8%** | 54.199
+ARIMA(2,1,2) (2-day) | **51.8%** | **54.199**
 ARIMA (2,2,2) (2-day) | 50.6% | 53.135
 
 Evidently, the ARIMA(2,2,2) model gives the best performance on forecasting day-ahead stock prices while ARIMA (2,1,2) gives the best performance for predicting two-days-ahead stock prices. The sign accuracy for day-ahead stock prices forecasting is satisfactory while for two-days-ahead is not. Figures below show the comparison of actual and predicted prices for both day-ahead and two days ahead forecasting algorithms.
